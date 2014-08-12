@@ -17,6 +17,7 @@
 		4721831D1999F80B00252BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4721831B1999F80B00252BD2 /* Main.storyboard */; };
 		4721831F1999F80B00252BD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4721831E1999F80B00252BD2 /* Images.xcassets */; };
 		4721832B1999F80B00252BD2 /* guipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4721832A1999F80B00252BD2 /* guipTests.m */; };
+		4744782E199A151C00E71FC3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4744782D199A151C00E71FC3 /* README.md */; };
 		4748020D1999FADF00097A95 /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748020C1999FADF00097A95 /* CustomTransitionViewController.m */; };
 		474802101999FAF900097A95 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748020F1999FAF900097A95 /* PresentingAnimator.m */; };
 		474802131999FB1C00097A95 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 474802121999FB1C00097A95 /* DismissingAnimator.m */; };
@@ -52,6 +53,7 @@
 		472183241999F80B00252BD2 /* guipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		472183291999F80B00252BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4721832A1999F80B00252BD2 /* guipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guipTests.m; sourceTree = "<group>"; };
+		4744782D199A151C00E71FC3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4748020B1999FADF00097A95 /* CustomTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionViewController.h; sourceTree = "<group>"; };
 		4748020C1999FADF00097A95 /* CustomTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionViewController.m; sourceTree = "<group>"; };
 		4748020E1999FAF900097A95 /* PresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		472183001999F80B00252BD2 = {
 			isa = PBXGroup;
 			children = (
+				4744782D199A151C00E71FC3 /* README.md */,
 				4721830B1999F80B00252BD2 /* guip */,
 				472183271999F80B00252BD2 /* guipTests */,
 				4721830A1999F80B00252BD2 /* Products */,
@@ -313,6 +316,7 @@
 				47185C2C199A044600A6E07B /* GBButton.m in Sources */,
 				4721830F1999F80B00252BD2 /* main.m in Sources */,
 				4748020D1999FADF00097A95 /* CustomTransitionViewController.m in Sources */,
+				4744782E199A151C00E71FC3 /* README.md in Sources */,
 				474802131999FB1C00097A95 /* DismissingAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
