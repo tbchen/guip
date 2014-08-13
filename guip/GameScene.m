@@ -35,7 +35,14 @@
 }
 
 -(void)onClick:(id)sender{
-    [self.gameDelegate pause:sender];
+    //[[NSNotificationCenter defaultCenter] postNotificationName:@"pause" object:nil];
+    //show pause dialog
+    CGSize dialogSize = CGSizeMake(self.size.width/2, self.size.height/2);
+    GBDialog* pauseDialog = [[GBDialog alloc]initWithColor:[UIColor blueColor] size:dialogSize];
+    pauseDialog.position = CGPointMake(self.size.width / 2, self.size.height / 2);
+    pauseDialog.zPosition = 100;
+    [self addChild:pauseDialog];
+    self.paused = true;
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {

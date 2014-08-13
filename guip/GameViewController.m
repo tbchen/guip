@@ -34,6 +34,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //register notification
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pause) name:@"pause" object:nil];
 
     // Configure the view.
     _skView = (SKView *)self.view;
@@ -43,17 +46,19 @@
     _skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
-    scene.gameDelegate = self;
+    MenuScene *scene = [[MenuScene alloc]initWithSize:_skView.frame.size];
+    //scene.gameDelegate = self;
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
     [_skView presentScene:scene];
 }
 
-- (void)pause:(id)sender{
+- (void)pause{
     NSLog(@"pause");
-    ModalViewController *modalViewController = [ModalViewController new];
+    //ModalViewController *modalViewController = [ModalViewController new];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ModalViewController *modalViewController = [storyboard instantiateViewControllerWithIdentifier:@"modalViewController"];
     modalViewController.transitioningDelegate = self;
     modalViewController.modalPresentationStyle = UIModalPresentationCustom;
     modalViewController.delegate = self;

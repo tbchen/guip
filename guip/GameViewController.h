@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
-#import "GameScene.h"
+#import "MenuScene.h"
 #import "ModalViewController.h"
 #import "DismissingAnimator.h"
 #import "PresentingAnimator.h"
 
-@interface GameViewController : UIViewController<GameSceneDelegate,UIViewControllerTransitioningDelegate,
+@interface GameViewController : UIViewController<UIViewControllerTransitioningDelegate,
         ModalViewControllerDelegate>
 
 @end

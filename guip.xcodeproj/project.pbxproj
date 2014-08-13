@@ -12,17 +12,18 @@
 		4721830F1999F80B00252BD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4721830E1999F80B00252BD2 /* main.m */; };
 		472183121999F80B00252BD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472183111999F80B00252BD2 /* AppDelegate.m */; };
 		472183151999F80B00252BD2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 472183141999F80B00252BD2 /* GameScene.m */; };
-		472183171999F80B00252BD2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 472183161999F80B00252BD2 /* GameScene.sks */; };
 		4721831A1999F80B00252BD2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472183191999F80B00252BD2 /* GameViewController.m */; };
 		4721831D1999F80B00252BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4721831B1999F80B00252BD2 /* Main.storyboard */; };
 		4721831F1999F80B00252BD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4721831E1999F80B00252BD2 /* Images.xcassets */; };
 		4721832B1999F80B00252BD2 /* guipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4721832A1999F80B00252BD2 /* guipTests.m */; };
+		473F49E3199AFF0300148984 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 473F49E2199AFF0300148984 /* MenuScene.m */; };
 		4744782E199A151C00E71FC3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4744782D199A151C00E71FC3 /* README.md */; };
 		4748020D1999FADF00097A95 /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748020C1999FADF00097A95 /* CustomTransitionViewController.m */; };
 		474802101999FAF900097A95 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748020F1999FAF900097A95 /* PresentingAnimator.m */; };
 		474802131999FB1C00097A95 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 474802121999FB1C00097A95 /* DismissingAnimator.m */; };
 		4748024A199A002A00097A95 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47480249199A002A00097A95 /* ModalViewController.m */; };
 		4748024D199A005000097A95 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748024C199A005000097A95 /* UIColor+CustomColors.m */; };
+		47ED770E199B2218003DFE53 /* GBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED770D199B2218003DFE53 /* GBDialog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,6 @@
 		472183111999F80B00252BD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		472183131999F80B00252BD2 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		472183141999F80B00252BD2 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		472183161999F80B00252BD2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		472183181999F80B00252BD2 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		472183191999F80B00252BD2 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		4721831C1999F80B00252BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		472183241999F80B00252BD2 /* guipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		472183291999F80B00252BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4721832A1999F80B00252BD2 /* guipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guipTests.m; sourceTree = "<group>"; };
+		473F49E1199AFF0300148984 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
+		473F49E2199AFF0300148984 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
 		4744782D199A151C00E71FC3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4748020B1999FADF00097A95 /* CustomTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionViewController.h; sourceTree = "<group>"; };
 		4748020C1999FADF00097A95 /* CustomTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionViewController.m; sourceTree = "<group>"; };
@@ -64,6 +66,8 @@
 		47480249199A002A00097A95 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 		4748024B199A005000097A95 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
 		4748024C199A005000097A95 /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		47ED770C199B2218003DFE53 /* GBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDialog.h; sourceTree = "<group>"; };
+		47ED770D199B2218003DFE53 /* GBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDialog.m; sourceTree = "<group>"; };
 		A737113E9FC241769C8C83C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA5B45F8E2B44C4ACC74552 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,23 +115,12 @@
 		4721830B1999F80B00252BD2 /* guip */ = {
 			isa = PBXGroup;
 			children = (
-				47185C2A199A044600A6E07B /* GBButton.h */,
-				47185C2B199A044600A6E07B /* GBButton.m */,
-				4748024B199A005000097A95 /* UIColor+CustomColors.h */,
-				4748024C199A005000097A95 /* UIColor+CustomColors.m */,
-				47480248199A002A00097A95 /* ModalViewController.h */,
-				47480249199A002A00097A95 /* ModalViewController.m */,
-				474802111999FB1C00097A95 /* DismissingAnimator.h */,
-				474802121999FB1C00097A95 /* DismissingAnimator.m */,
-				4748020E1999FAF900097A95 /* PresentingAnimator.h */,
-				4748020F1999FAF900097A95 /* PresentingAnimator.m */,
-				4748020B1999FADF00097A95 /* CustomTransitionViewController.h */,
-				4748020C1999FADF00097A95 /* CustomTransitionViewController.m */,
+				473F49DE199AF95A00148984 /* Scene */,
+				473F49DD199AF91700148984 /* Common */,
+				473F49DC199AF90700148984 /* Button */,
+				473F49DB199AF8F800148984 /* Dialog */,
 				472183101999F80B00252BD2 /* AppDelegate.h */,
 				472183111999F80B00252BD2 /* AppDelegate.m */,
-				472183131999F80B00252BD2 /* GameScene.h */,
-				472183141999F80B00252BD2 /* GameScene.m */,
-				472183161999F80B00252BD2 /* GameScene.sks */,
 				472183181999F80B00252BD2 /* GameViewController.h */,
 				472183191999F80B00252BD2 /* GameViewController.m */,
 				4721831B1999F80B00252BD2 /* Main.storyboard */,
@@ -161,6 +154,60 @@
 				472183291999F80B00252BD2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		473F49DB199AF8F800148984 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				47ED770F199B2228003DFE53 /* old */,
+				47ED770C199B2218003DFE53 /* GBDialog.h */,
+				47ED770D199B2218003DFE53 /* GBDialog.m */,
+			);
+			name = Dialog;
+			sourceTree = "<group>";
+		};
+		473F49DC199AF90700148984 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				47185C2A199A044600A6E07B /* GBButton.h */,
+				47185C2B199A044600A6E07B /* GBButton.m */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		473F49DD199AF91700148984 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4748024B199A005000097A95 /* UIColor+CustomColors.h */,
+				4748024C199A005000097A95 /* UIColor+CustomColors.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		473F49DE199AF95A00148984 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				472183131999F80B00252BD2 /* GameScene.h */,
+				472183141999F80B00252BD2 /* GameScene.m */,
+				473F49E1199AFF0300148984 /* MenuScene.h */,
+				473F49E2199AFF0300148984 /* MenuScene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		47ED770F199B2228003DFE53 /* old */ = {
+			isa = PBXGroup;
+			children = (
+				4748020B1999FADF00097A95 /* CustomTransitionViewController.h */,
+				4748020C1999FADF00097A95 /* CustomTransitionViewController.m */,
+				47480248199A002A00097A95 /* ModalViewController.h */,
+				47480249199A002A00097A95 /* ModalViewController.m */,
+				474802111999FB1C00097A95 /* DismissingAnimator.h */,
+				474802121999FB1C00097A95 /* DismissingAnimator.m */,
+				4748020E1999FAF900097A95 /* PresentingAnimator.h */,
+				4748020F1999FAF900097A95 /* PresentingAnimator.m */,
+			);
+			name = old;
 			sourceTree = "<group>";
 		};
 		B45144761D344CDD9DFD20B2 /* Frameworks */ = {
@@ -255,7 +302,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4721831F1999F80B00252BD2 /* Images.xcassets in Resources */,
-				472183171999F80B00252BD2 /* GameScene.sks in Resources */,
 				4721831D1999F80B00252BD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +362,8 @@
 				47185C2C199A044600A6E07B /* GBButton.m in Sources */,
 				4721830F1999F80B00252BD2 /* main.m in Sources */,
 				4748020D1999FADF00097A95 /* CustomTransitionViewController.m in Sources */,
+				473F49E3199AFF0300148984 /* MenuScene.m in Sources */,
+				47ED770E199B2218003DFE53 /* GBDialog.m in Sources */,
 				4744782E199A151C00E71FC3 /* README.md in Sources */,
 				474802131999FB1C00097A95 /* DismissingAnimator.m in Sources */,
 			);
