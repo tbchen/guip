@@ -7,6 +7,7 @@
 //
 
 #import "GameScene.h"
+#import <pop/POP.h>
 
 @implementation GameScene{
     GBButton *_classicButton;
@@ -36,13 +37,20 @@
 
 -(void)onClick:(id)sender{
     //[[NSNotificationCenter defaultCenter] postNotificationName:@"pause" object:nil];
+    SKAction* action = [SKAction moveToY:self.size.height / 2 duration:0.3];
     //show pause dialog
     CGSize dialogSize = CGSizeMake(self.size.width/2, self.size.height/2);
     GBDialog* pauseDialog = [[GBDialog alloc]initWithColor:[UIColor blueColor] size:dialogSize];
-    pauseDialog.position = CGPointMake(self.size.width / 2, self.size.height / 2);
+    pauseDialog.position = CGPointMake(self.size.width / 2,  self.size.height * 3 / 2);
     pauseDialog.zPosition = 100;
     [self addChild:pauseDialog];
-    self.paused = true;
+    [pauseDialog runAction:action completion:^{
+        //POPSpringAnimation *scaleAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
+        //scaleAnimation.springBounciness = 20;
+        //scaleAnimation.fromValue = [NSValue valueWithCGPoint:CGPointMake(1.2, 1.4)];
+        //[_classicButton pop_addAnimation:scaleAnimation forKey:@"scaleAnimation"];
+        self.paused = true;
+    }];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {

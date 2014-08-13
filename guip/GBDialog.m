@@ -39,7 +39,11 @@
         [self.scene.view presentScene:scene transition:t];
     }else if(sender == _resumeButton){
         self.scene.paused = false;
-        [self removeFromParent];
+        SKAction* action = [SKAction moveToY: -self.scene.size.height / 2 duration:0.3];
+        [self runAction:action completion:^{
+            [self removeFromParent];
+        }];
+        
     }
 }
 @end

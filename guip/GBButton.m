@@ -7,6 +7,7 @@
 //
 
 #import "GBButton.h"
+#import <pop/POP.h>
 
 @implementation GBButton{
     SKLabelNode* _textLabel;
@@ -28,6 +29,10 @@
     return button;
 }
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    POPSpringAnimation *positionAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
+    positionAnimation.velocity = @2000;
+    positionAnimation.springBounciness = 20;
+    [self pop_addAnimation:positionAnimation forKey:@"slide"];
     [self.delegate onClick:self];
 }
 -(void)setFontSize:(CGFloat)size{
