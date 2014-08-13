@@ -10,5 +10,5 @@
 #import "GBButton.h"
 
 @interface GBDialog : SKSpriteNode<GBButtonDelegate>
-
+//@property(nonatomic,strong) CGRect bounds;
 @end

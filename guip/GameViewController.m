@@ -55,22 +55,22 @@
 }
 
 - (void)pause{
-    NSLog(@"pause");
-    //ModalViewController *modalViewController = [ModalViewController new];
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    ModalViewController *modalViewController = [storyboard instantiateViewControllerWithIdentifier:@"modalViewController"];
-    modalViewController.transitioningDelegate = self;
-    modalViewController.modalPresentationStyle = UIModalPresentationCustom;
-    modalViewController.delegate = self;
-    [self presentViewController:modalViewController
-                                            animated:YES
-                                          completion:NULL];
-    _skView.paused = YES;
+//    NSLog(@"pause");
+//    //ModalViewController *modalViewController = [ModalViewController new];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    ModalViewController *modalViewController = [storyboard instantiateViewControllerWithIdentifier:@"modalViewController"];
+//    modalViewController.transitioningDelegate = self;
+//    modalViewController.modalPresentationStyle = UIModalPresentationCustom;
+//    modalViewController.delegate = self;
+//    [self presentViewController:modalViewController
+//                                            animated:YES
+//                                          completion:NULL];
+//    _skView.paused = YES;
 }
 
 - (void)returnFromDialog:(id)sender{
-    NSLog(@"return from dialog");
-    _skView.paused = NO;
+//    NSLog(@"return from dialog");
+//    _skView.paused = NO;
     
 }
 

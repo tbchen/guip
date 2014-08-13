@@ -17,7 +17,8 @@
     if (self) {
         _textLabel = [SKLabelNode labelNodeWithFontNamed:@""];
         _textLabel.text = text;
-        _textLabel.fontColor = color == [SKColor whiteColor] ? [SKColor blackColor] : [SKColor whiteColor];
+       // _textLabel.fontColor = color == [SKColor whiteColor] ? [SKColor blackColor] : [SKColor whiteColor];
+        _textLabel.fontColor = [SKColor whiteColor];
         [self addChild:_textLabel];
         
         [self setUserInteractionEnabled:YES];

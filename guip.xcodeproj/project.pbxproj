@@ -16,6 +16,19 @@
 		4721831D1999F80B00252BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4721831B1999F80B00252BD2 /* Main.storyboard */; };
 		4721831F1999F80B00252BD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4721831E1999F80B00252BD2 /* Images.xcassets */; };
 		4721832B1999F80B00252BD2 /* guipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4721832A1999F80B00252BD2 /* guipTests.m */; };
+		47219B88199B4B7600639B4A /* GBBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 47219B87199B4B7600639B4A /* GBBall.m */; };
+		47219B9B199B515300639B4A /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 47219B8B199B515300639B4A /* SKAction+SKTExtras.m */; };
+		47219B9C199B515300639B4A /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 47219B8D199B515300639B4A /* SKAction+SKTSpecialEffects.m */; };
+		47219B9D199B515300639B4A /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 47219B8F199B515300639B4A /* SKEmitterNode+SKTExtras.m */; };
+		47219B9E199B515300639B4A /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 47219B91199B515300639B4A /* SKNode+SKTDebugDraw.m */; };
+		47219B9F199B515300639B4A /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 47219B93199B515300639B4A /* SKNode+SKTExtras.m */; };
+		47219BA0199B515300639B4A /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 47219B95199B515300639B4A /* SKTAudio.m */; };
+		47219BA1199B515300639B4A /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 47219B97199B515300639B4A /* SKTEffects.m */; };
+		47219BA2199B515300639B4A /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47219B99199B515300639B4A /* SKTTimingFunctions.m */; };
+		47219BA4199B53C800639B4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47219BA3199B53C800639B4A /* CoreGraphics.framework */; };
+		47219BA6199B53CE00639B4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47219BA5199B53CE00639B4A /* Foundation.framework */; };
+		47219BA8199B53DE00639B4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47219BA7199B53DE00639B4A /* UIKit.framework */; };
+		47219BAA199B53E300639B4A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47219BA9199B53E300639B4A /* SpriteKit.framework */; };
 		473F49E3199AFF0300148984 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 473F49E2199AFF0300148984 /* MenuScene.m */; };
 		4744782E199A151C00E71FC3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4744782D199A151C00E71FC3 /* README.md */; };
 		4748020D1999FADF00097A95 /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748020C1999FADF00097A95 /* CustomTransitionViewController.m */; };
@@ -53,6 +66,30 @@
 		472183241999F80B00252BD2 /* guipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		472183291999F80B00252BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4721832A1999F80B00252BD2 /* guipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guipTests.m; sourceTree = "<group>"; };
+		47219B86199B4B7600639B4A /* GBBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBBall.h; sourceTree = "<group>"; };
+		47219B87199B4B7600639B4A /* GBBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBBall.m; sourceTree = "<group>"; };
+		47219B8A199B515300639B4A /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		47219B8B199B515300639B4A /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		47219B8C199B515300639B4A /* SKAction+SKTSpecialEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTSpecialEffects.h"; sourceTree = "<group>"; };
+		47219B8D199B515300639B4A /* SKAction+SKTSpecialEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTSpecialEffects.m"; sourceTree = "<group>"; };
+		47219B8E199B515300639B4A /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		47219B8F199B515300639B4A /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		47219B90199B515300639B4A /* SKNode+SKTDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTDebugDraw.h"; sourceTree = "<group>"; };
+		47219B91199B515300639B4A /* SKNode+SKTDebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTDebugDraw.m"; sourceTree = "<group>"; };
+		47219B92199B515300639B4A /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		47219B93199B515300639B4A /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		47219B94199B515300639B4A /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		47219B95199B515300639B4A /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		47219B96199B515300639B4A /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		47219B97199B515300639B4A /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		47219B98199B515300639B4A /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		47219B99199B515300639B4A /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		47219B9A199B515300639B4A /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		47219BA3199B53C800639B4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47219BA5199B53CE00639B4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47219BA7199B53DE00639B4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47219BA9199B53E300639B4A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		47219BAC199B55AB00639B4A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		473F49E1199AFF0300148984 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		473F49E2199AFF0300148984 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
 		4744782D199A151C00E71FC3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -77,6 +114,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47219BAA199B53E300639B4A /* SpriteKit.framework in Frameworks */,
+				47219BA8199B53DE00639B4A /* UIKit.framework in Frameworks */,
+				47219BA6199B53CE00639B4A /* Foundation.framework in Frameworks */,
+				47219BA4199B53C800639B4A /* CoreGraphics.framework in Frameworks */,
 				2029832885B24D0DB0107E2A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +135,7 @@
 		472183001999F80B00252BD2 = {
 			isa = PBXGroup;
 			children = (
+				47219BAC199B55AB00639B4A /* PrefixHeader.pch */,
 				4744782D199A151C00E71FC3 /* README.md */,
 				4721830B1999F80B00252BD2 /* guip */,
 				472183271999F80B00252BD2 /* guipTests */,
@@ -115,6 +157,7 @@
 		4721830B1999F80B00252BD2 /* guip */ = {
 			isa = PBXGroup;
 			children = (
+				47219B89199B515300639B4A /* SKTUtils */,
 				473F49DE199AF95A00148984 /* Scene */,
 				473F49DD199AF91700148984 /* Common */,
 				473F49DC199AF90700148984 /* Button */,
@@ -156,6 +199,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47219B89199B515300639B4A /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				47219B8A199B515300639B4A /* SKAction+SKTExtras.h */,
+				47219B8B199B515300639B4A /* SKAction+SKTExtras.m */,
+				47219B8C199B515300639B4A /* SKAction+SKTSpecialEffects.h */,
+				47219B8D199B515300639B4A /* SKAction+SKTSpecialEffects.m */,
+				47219B8E199B515300639B4A /* SKEmitterNode+SKTExtras.h */,
+				47219B8F199B515300639B4A /* SKEmitterNode+SKTExtras.m */,
+				47219B90199B515300639B4A /* SKNode+SKTDebugDraw.h */,
+				47219B91199B515300639B4A /* SKNode+SKTDebugDraw.m */,
+				47219B92199B515300639B4A /* SKNode+SKTExtras.h */,
+				47219B93199B515300639B4A /* SKNode+SKTExtras.m */,
+				47219B94199B515300639B4A /* SKTAudio.h */,
+				47219B95199B515300639B4A /* SKTAudio.m */,
+				47219B96199B515300639B4A /* SKTEffects.h */,
+				47219B97199B515300639B4A /* SKTEffects.m */,
+				47219B98199B515300639B4A /* SKTTimingFunctions.h */,
+				47219B99199B515300639B4A /* SKTTimingFunctions.m */,
+				47219B9A199B515300639B4A /* SKTUtils.h */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
 		473F49DB199AF8F800148984 /* Dialog */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +245,8 @@
 		473F49DD199AF91700148984 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				47219B86199B4B7600639B4A /* GBBall.h */,
+				47219B87199B4B7600639B4A /* GBBall.m */,
 				4748024B199A005000097A95 /* UIColor+CustomColors.h */,
 				4748024C199A005000097A95 /* UIColor+CustomColors.m */,
 			);
@@ -213,6 +282,10 @@
 		B45144761D344CDD9DFD20B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47219BA9199B53E300639B4A /* SpriteKit.framework */,
+				47219BA7199B53DE00639B4A /* UIKit.framework */,
+				47219BA5199B53CE00639B4A /* Foundation.framework */,
+				47219BA3199B53C800639B4A /* CoreGraphics.framework */,
 				A737113E9FC241769C8C83C2 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -353,17 +426,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47219B9E199B515300639B4A /* SKNode+SKTDebugDraw.m in Sources */,
 				4721831A1999F80B00252BD2 /* GameViewController.m in Sources */,
+				47219BA1199B515300639B4A /* SKTEffects.m in Sources */,
+				47219B9D199B515300639B4A /* SKEmitterNode+SKTExtras.m in Sources */,
+				47219B9C199B515300639B4A /* SKAction+SKTSpecialEffects.m in Sources */,
 				474802101999FAF900097A95 /* PresentingAnimator.m in Sources */,
 				472183121999F80B00252BD2 /* AppDelegate.m in Sources */,
+				47219B88199B4B7600639B4A /* GBBall.m in Sources */,
 				4748024D199A005000097A95 /* UIColor+CustomColors.m in Sources */,
 				472183151999F80B00252BD2 /* GameScene.m in Sources */,
+				47219BA0199B515300639B4A /* SKTAudio.m in Sources */,
 				4748024A199A002A00097A95 /* ModalViewController.m in Sources */,
 				47185C2C199A044600A6E07B /* GBButton.m in Sources */,
 				4721830F1999F80B00252BD2 /* main.m in Sources */,
+				47219B9F199B515300639B4A /* SKNode+SKTExtras.m in Sources */,
 				4748020D1999FADF00097A95 /* CustomTransitionViewController.m in Sources */,
+				47219BA2199B515300639B4A /* SKTTimingFunctions.m in Sources */,
 				473F49E3199AFF0300148984 /* MenuScene.m in Sources */,
 				47ED770E199B2218003DFE53 /* GBDialog.m in Sources */,
+				47219B9B199B515300639B4A /* SKAction+SKTExtras.m in Sources */,
 				4744782E199A151C00E71FC3 /* README.md in Sources */,
 				474802131999FB1C00097A95 /* DismissingAnimator.m in Sources */,
 			);
@@ -422,6 +504,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -462,6 +545,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
