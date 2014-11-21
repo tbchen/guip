@@ -10,29 +10,29 @@
 	<string>guip</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>14918989-27CF-4211-A4D3-F263D904CD6E</key>
+		<key>75DDF4947DC19C8C2FC7B5727FA6A0EFFFA33ECD</key>
 		<string>https://github.com/tbchen/guip.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>guip.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>14918989-27CF-4211-A4D3-F263D904CD6E</key>
+		<key>75DDF4947DC19C8C2FC7B5727FA6A0EFFFA33ECD</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/tbchen/guip.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>14918989-27CF-4211-A4D3-F263D904CD6E</string>
+	<string>75DDF4947DC19C8C2FC7B5727FA6A0EFFFA33ECD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>14918989-27CF-4211-A4D3-F263D904CD6E</string>
+			<string>75DDF4947DC19C8C2FC7B5727FA6A0EFFFA33ECD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>guip</string>
 		</dict>
